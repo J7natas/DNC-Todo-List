@@ -1,0 +1,35 @@
+@use "../sass/variaveis" as *;
+
+.Lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  ul {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  li{
+    list-style: none;
+    color: $color-white;
+  }
+
+  input {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__ContImg img {
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
