@@ -22,8 +22,3 @@ Instale my-project com npm
 ## Screenshots
 
 ![App Screenshot](https://uploaddeimagens.com.br/images/004/508/397/full/Screenshot_2023-06-15_150912.png?1686853181)
-
-
-# DNC-Todo-List
-Este e um projeto To do list, que permite vc adiciona tarefas e  apaga
-Link do Projeto: https://illustrious-scone-1847c5.netlify.app
