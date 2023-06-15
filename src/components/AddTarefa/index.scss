@@ -1,23 +1,27 @@
 @use '../sass/variaveis' as *;
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@200;400;700&family=Irish+Grover&family=Joti+One&family=Poppins:ital,wght@0,400;0,700;1,400;1,800&family=Raleway:wght@400;500;600;700&display=swap');
+
 
 .AddTarefa {
     color: $color-white; 
     text-align: center;
     margin-bottom: 20px;
+    background-color: $bg-bage;
+    width: 70%;
+    margin: 90px auto;
+    border-radius: 20px;
+    height: 395px;
     
-    h1 {
-        padding-top: 120px;
-        font-size: 35px;
-    }
 
     &__FormTitle {
         display: flex;
         justify-content: space-between;
-        border-bottom: 5px solid #D9D9D9;
         width: 710px;
         margin: auto;
-        padding-top: 100px;
-        line-height: 80px;
+        line-height: 40px;
+        padding-top: 25px;
+        font-family: 'Irish Grover';
+        font-size: 30px;
     }
 
     &__NovaTarefa {
@@ -33,10 +37,23 @@
 
     input {
         border: none;
-        background-color: $bg-dark;
-        color: $color-white;
+        background-color: $bg-opacity;
+        color: $color-darkgray;
         font-style: italic;
-        font-size: 20px;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 5px;
+        width: 250px;
+    }
+
+    .Cont-img {
+        background-color: $bg-opacity;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
     }
 
     img {
