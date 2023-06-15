@@ -1,32 +1,18 @@
 @use '../sass/variaveis' as *;
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@200;400;700&family=Irish+Grover&family=Joti+One&family=Poppins:ital,wght@0,400;0,700;1,400;1,800&family=Raleway:wght@400;500;600;700&display=swap');
 
 .Header {
-    height: 74px;
-    background-color: $bg-blue;
+    background-color: $bg-bage;
+    padding: 20px;
 
-    &__cont-h1 {
+    &__cont {
         display: flex;
-        padding-top: 25px;
-        font-size: 10px;
-        margin-left: 60px;
-    }
-
-    &__h1-white {
+        align-items: center;
+        justify-content: space-between;
+        font-size: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
         color: $color-white;
-        padding-top: 10px;
-        font-weight: 400;
-    }
-
-    &__Selected-h1 {
-        background-color: $bg-white;
-        color: $color-blue;
-        margin-left: 60px;
-        width: 175px;
-        height: 50px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        text-align: center;
-        padding-top: 10px;
-        font-weight: 600;
+        font-family: 'Irish Grover';
     }
 }

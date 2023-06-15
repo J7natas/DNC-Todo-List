@@ -1,11 +1,12 @@
 import './index.scss';
+import logo from '../assets/logo.svg';
 
  export const Header = () => {
     return(
         <header className='Header'>
-            <div className='Header__cont-h1'>
-                <h1 className='Header__h1-white'>Organização</h1>
-                <h1 className="Header__Selected-h1">Tarefas</h1>
+            <div className='Header__cont'>
+                <img src={logo} />
+                <p>Organizador Diário</p>
             </div> 
         </header>
     )
