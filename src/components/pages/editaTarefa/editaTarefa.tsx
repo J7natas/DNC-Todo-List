@@ -7,19 +7,17 @@ export const EditarTarefa = () => {
     return (
         <section className='Editar'>
             <Header />
-            <h1 className='textPrincipal'>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
             <div className='EditarTarefa'>
                 <h1>Deseja editar esse item?</h1>
-                <p>Colocar as descrições das tarefas aqui.</p>
                 <div className='contButton'>
                     <Link to={'/'}>
-                        <button className='bgBlue'>
+                        <button >
                             Não
                         </button>
                     </Link>
 
                     <Link to={'/'}>
-                    <button className='bgWhite'>
+                    <button >
                         Sim
                     </button>
                     </Link>
