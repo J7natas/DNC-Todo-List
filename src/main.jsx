@@ -6,7 +6,6 @@ import { DeleteTarefa } from "./components/pages/deleteTarefa/deleteTarefa";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { EditarTarefa } from "./components/pages/editaTarefa/editaTarefa";
 
-
 const router = createBrowserRouter([
   {
     path: '/',
